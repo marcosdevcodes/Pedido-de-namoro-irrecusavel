@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>PEDIDO : IRRECUSALVE</title>
+  </head>
+  <body>
+    <div id="container">
+      <div class="imagem_div">
+        <img src="./assets/img/minha_foto.jpeg" alt="minha foto vai aqui" />
+        <h4>Marcos Dias Lima<br>
+        @marcosdevtrader.oficial</h4>
+      </div>
+      <!-- <div class="div2_card"> -->
+      <h2>Aceita namorar Comigo!</h2>
+      <br>
+
+      <p class="textoCla"
+        >OPÇÃO 1: SIM EU ACEITO O SEU PEDIDO DE NAMORO!
+      </p>
+    <br>
+      <p class="textoCla"
+        >OPÇÃO 2: NÃO EU NÃO ACEITO O SEU PEDIDO DE NAMORO!</p
+      >
+    <br>
+        <button class="meuButton">Sim</button>
+        <!-- quando clicar no button ele vai chamar o onclick="sim()" -->
+
+        <button
+          class="meuButton"
+          id="btn"
+          onclick="desvia(this)"
+          onmouseover="desvia(this)"
+        >
+          Não
+        </button>
+     
+      <!-- esse onclick="desvia(this)" é se caso a pessoa conseguir clicar pelo celular 
+      por que o celular ele é token skrin -->
+
+      <!-- ele vai chamar esse HTML com o this que foi colocado dentro do parenteses especifico -->
+
+      <!-- quando o mouse chegar perto ele vai desviar para outro lugar aleatorio com a funcao onmouseover="desvia()" -->
+      <p id="mensagem" class="escondido">
+        Muito obrigado por aceitar namorar comigo. Estou ansioso para viver
+        momentos incríveis ao seu lado!<br />
+        Não há palavras suficientes para expressar a alegria que sinto por você
+        ter aceitado namorar comigo. Cada momento que compartilhamos até agora
+        tem sido incrível, e mal posso esperar para construir um futuro cheio de
+        amor, aventuras e cumplicidade juntos.
+      </p>
+      <!-- </div> -->
+    </div>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>

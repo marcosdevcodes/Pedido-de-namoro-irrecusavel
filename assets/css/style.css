@@ -1,0 +1,253 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right, #ca1b1b, #c9cc20, #ac0fa1);
+}
+#container {
+    position: relative;
+    background-image: linear-gradient(to right, #ca1b1b, #c9cc20, #ac0fa1);
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    /* margin: 0 auto; */
+    padding: 10px;
+    text-align: center;
+}
+
+.imagem_div img{
+    display: flex;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    left: 30px;
+    top: 25px;
+    /* float:calc(100%, 20px); */
+}
+.imagem_div h4{
+    display: flex;
+    position: absolute;
+    left: 150px;
+    top: 50px;
+    color: #ffffff;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+}
+
+/*selecionar a cor do texto e a cor do fundo quando for copiar*/
+.textoCla::selection {
+    color: #ff0000;
+    background: #ffffff;
+}
+
+.textoCla {
+    position: relative;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    text-shadow: 0 0 0.2em rgb(153, 150, 153), 0 0 0.2em rgb(255, 255, 255),
+        0 0 0.2em rgb(72, 55, 55);
+}
+
+h2::selection {
+    color: #000000;
+    background-color: #8e05c051;
+}
+
+#container h2 {
+    display: flex;
+    color: #ffffff;
+    text-align: center;
+    justify-content: center;
+    margin-top: 18%;
+    text-transform: uppercase;
+    /*coloca o texto todo em maiusculo*/
+    /* text-shadow: 1px 1px white, -1px -1px #444; */
+    /* text-shadow: -1px -1px rgb(255, 0, 0), 1px 1px #333; */
+    text-shadow: 0 0 0.2em #87F, 0 0 0.2em #87F,
+        0 0 0.2em #87F;
+    font-size: 1.5em;
+    font-weight: 900;
+    letter-spacing: 1px;
+    /*espaçamento entre as letras*/
+    margin-bottom: 2%;
+    word-spacing: 10px;
+
+    /*espaçamento entre as palavras*/
+}
+
+
+.meuButton {
+    background: #ff0000;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    width: 100px;
+    padding: 4px 10px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    -webkit-box-shadow: -2px 4px 5px 0px rgb(0, 0, 0);
+    -moz-box-shadow: -2px 4px 5px 0px rgb(0, 0, 0);
+    box-shadow: -2px 4px 5px 0px rgb(0, 0, 0);
+}
+
+.escondido {
+    display: none;
+}
+
+#mensagem.visivel::selection {
+    color: #00ff11;
+    background: #000000;
+}
+
+#mensagem.visivel {
+    display: block;
+    background: #00000060;
+    color: #ffffff;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    padding: 10px;
+    width: 400px;
+    height: auto;
+    text-shadow: 1px 1px #353535, -1px -1px #1c1b1b;
+    border: 2px solid #cf0202;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 3%;
+    -webkit-box-shadow: -2px 4px 5px 0px rgb(13, 64, 217);
+    -moz-box-shadow: -2px 4px 5px 0px rgb(13, 64, 217, 1);
+    box-shadow: -2px 4px 5px 0px rgba(13, 64, 217, 1);
+}
+
+/*tudo vai mudar quando ficar menos de 600px*/
+@media (max-width: 767px) {
+    body {
+        background: #161616;
+    }
+
+    #container {
+        display: block;
+        background: #161616;
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        padding: 10px;
+        text-align: center;
+        margin-top: 20%;
+    }
+    .imagem_div img{
+        display: flex;
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        left: 30px;
+        top: -80px;
+        /* float:calc(100%, 20px); */
+    }
+    .imagem_div h4{
+        display: flex;
+        position: absolute;
+        left: 140px;
+        top: -60px;
+        color: #ffffff;
+        font-size: 1em;
+        letter-spacing: 1px;
+        text-shadow: 0 0 0.2em rgb(153, 150, 153), 0 0 0.2em rgb(255, 255, 255),
+            0 0 0.2em rgb(72, 55, 55);
+    }
+    .imagem_div h4::selection{
+        color: #1aff00;
+        background: #fff;
+    }
+    .textoCla {
+        color: #fff;
+        text-align: center;
+        justify-content: center;
+        font-size: 1.8em;
+        letter-spacing: 2px;
+        word-spacing: 10px;
+        text-shadow: 0 0 0.2em rgb(153, 150, 153), 0 0 0.2em rgb(255, 255, 255),
+            0 0 0.2em rgb(72, 55, 55);
+    }
+
+    #container h2 {
+        color: #ffffff;
+        text-align: center;
+        justify-content: center;
+        text-transform: uppercase;
+        text-shadow: 0 0 0.2em #87F, 0 0 0.2em #87F,
+            0 0 0.2em #87F;
+        font-size: 2em;
+        font-weight: 900;
+        letter-spacing: 2px;/*espaçamento entre as letras*/
+        word-spacing: 10px;/*espaçamento entre palavras*/
+    }
+
+    /* .quadro_visivel {
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90%;
+        height: 90%;
+        text-align: center;
+        align-items: center;
+    } */
+
+    #mensagem.visivel {
+        display: block;
+        background: #ffffffca;
+        color: #242323;
+        text-align: justify;
+        text-transform: uppercase;
+        word-spacing: 5px;
+        font-size: 1.8em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 900;
+        padding: 10px;
+        width: 350px;
+        /* height: auto; */
+        margin-bottom: 20%;
+        text-shadow: 1px 1px #d60909, -1px -1px #c30bbd;
+        border: 2px solid #cf0202;
+        border-radius: 10px;
+        box-shadow: -2px 4px 5px 0px rgba(13, 64, 217, 1);
+    }
+
+    .meuButton {
+        background: #ff0000;
+        color: #ffffff;
+        text-transform: uppercase;
+        font-size: 30px;
+        font-weight: 600;
+        width: 150px;
+        padding: 4px 10px;
+        margin-top: 10%;
+        cursor: pointer;
+        border: none;
+        border-radius: 10px;
+        box-shadow: -2px 4px 5px 0px rgb(0, 0, 0);
+    }
+}
+
+/*essas cores ficam linda no painel
+     background: #d1d1d1;
+    color: #ccc;
+    text-shadow: 1px 1px #ffffff, -1px -1px #444;; */
+/* <button id="voiceSearchButton" class="realbox-icon-button" title="Pesquisar por voz"></button>
+
+<button id="lensSearchButton" class="realbox-icon-button" title="Pesquisar por imagem"></button> */
