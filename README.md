@@ -30,3 +30,27 @@ Se você quiser executar este projeto localmente em seu próprio ambiente de des
 ###  Abra o arquivo index.html em seu navegador para ver o pedido de namoro em ação.
 
 ###  Se você quiser contribuir com melhorias ou adicionar recursos adicionais a este projeto divertido, sinta-se à vontade para enviar um pull request. Aceitamos contribuições criativas!
+
+# Veja o video de como ficou o projeto feito.
+
+### Ficou top de mais:
+
+
+
+
+
+https://github.com/marcosdevcodes/Pedido-de-namoro-irrecusavel/assets/112284397/4e0d5b89-0ee8-4e55-936d-577a2e418496
+
+
+## Algumas imagens Aqui.
+
+## Arquivo js.
+
+![js1](https://github.com/marcosdevcodes/Pedido-de-namoro-irrecusavel/assets/112284397/78e78af1-7148-492e-ad1d-30a669e2f44e)
+
+
+## Arquivo HTML.
+
+![html](https://github.com/marcosdevcodes/Pedido-de-namoro-irrecusavel/assets/112284397/467209d8-312f-486f-9b46-c391a403bd13)
+
+
